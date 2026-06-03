@@ -76,7 +76,7 @@
 --WHERE p.standardcost > 0
 --ORDER BY Margin DESC;
 
---```
+--``
 
 --**One subtle rule:** Column aliases defined in `SELECT` can be used in `ORDER BY` but NOT in `WHERE`. 
 -- SQL evaluates WHERE before SELECT, so the alias doesn't exist yet at WHERE time. If you need to filter on a computed value, repeat the expression in WHERE or use a CTE (Day 17).
