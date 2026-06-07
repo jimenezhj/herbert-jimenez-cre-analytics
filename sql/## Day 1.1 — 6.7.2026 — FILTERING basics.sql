@@ -92,5 +92,10 @@ GO
 --AND ListPrice <= 1000 
 --AND color = 'silver'
 
-
 --5. Products where ProductNumber contains the letter "Z"
+--SELECT
+--	name,
+--	listprice,
+--	ProductNumber
+--FROM Production.Product
+----WHERE ProductNumber LIKE '%z%';
